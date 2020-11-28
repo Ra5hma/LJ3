@@ -7,13 +7,17 @@ public class Main  {
        char[] array = str.toCharArray();
         System.out.println(firstRepeat(array));
 
-        String str1 = "Here is another sample.";
+        str = "Here is another sample.";
         char[] array2= str.toCharArray();
         System.out.println(firstRepeat(array2));
 
-        String str3 = "no repeats";
+        str= "oh no, a repeat";
         char[] array3 =str.toCharArray();
         System.out.println(firstRepeat(array3));
+
+        str = "no val x g j r";
+            char[] array4 = str.toCharArray();
+        System.out.println(firstRepeat(array4));
     }
     //this is to return the first repeated char in a string
     static char firstRepeat(char str[]){
@@ -27,6 +31,6 @@ public class Main  {
                 return c;
             else h.add(c);
         }
-        return 0;
+        return 55;
     }
 }
